@@ -4,15 +4,15 @@
 
 A beautiful, responsive image gallery built with HTML, CSS, and JavaScript. Features include hover effects, smooth transitions, lightbox navigation (Next/Prev), and image category filtering. Perfect for showcasing photos in an interactive and elegant way.
 
-Features:
+# Features:
 
-Lightbox view with next/previous navigation
+- Lightbox view with next/previous navigation
 
-Hover zoom effects
+- Hover zoom effects
 
-Responsive grid layout
+- Responsive grid layout
 
-Optional filter buttons (e.g.,all, nature, animals, flowers)
+- Optional filter buttons (e.g.,all, nature, animals, flowers)
 
 <img width="1898" height="877" alt="image" src="https://github.com/user-attachments/assets/02f8dc6c-8f55-42e1-a959-7420770837a5" />
 
