@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>Image <span>Gallery</span></h1>
+    </div>
+  
+
+  <div class="gallery">
+    
+     <img src="images/n1.jpg" class="gallery-item nature" onclick="openLightbox(this)">
+     <img src="images/f1.jpg" class="gallery-item flower" onclick="openLightbox(this)">
+     <img src="images/a1.jpg" class="gallery-item animal" onclick="openLightbox(this)">
+     <img src="images/n2.jpg" class="gallery-item nature" onclick="openLightbox(this)">
+     <img src="images/f2.jpg" class="gallery-item flower" onclick="openLightbox(this)">
+     <img src="images/a2.jpg" class="gallery-item animal" onclick="openLightbox(this)">
+     <img src="images/n3.jpg" class="gallery-item nature" onclick="openLightbox(this)">
+     <img src="images/f3.jpg" class="gallery-item flower" onclick="openLightbox(this)">
+     <img src="images/a3.jpg" class="gallery-item animal" onclick="openLightbox(this)">
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('animal')">Animals</button>
+    <button onclick="filterImages('flower')">Flower</button>
+  </div>
+
+  
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-img" id="lightbox-img">
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+
+  <script src="script.js"></script>
+  </div>
+</body>
+</html>
