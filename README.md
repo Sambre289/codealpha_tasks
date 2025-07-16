@@ -1,5 +1,5 @@
 # codealpha_tasks
-TASK 1 : IMAGE GALLERY
+## TASK 1 : IMAGE GALLERY
 
 
 A beautiful, responsive image gallery built with HTML, CSS, and JavaScript. Features include hover effects, smooth transitions, lightbox navigation (Next/Prev), and image category filtering. Perfect for showcasing photos in an interactive and elegant way.
@@ -18,7 +18,7 @@ Optional filter buttons (e.g.,all, nature, animals, flowers)
 
 
 
-TASK 4:MUSIC PLAYER USING JAVASCRIPT
+## TASK 4:MUSIC PLAYER USING JAVASCRIPT
 
 
 An elegant and fully functional music player built using HTML, CSS, and JavaScript. Supports all essential audio controls, song info display, progress tracking, and more — inspired by real-world music apps.
