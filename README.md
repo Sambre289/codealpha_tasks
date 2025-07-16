@@ -1,6 +1,4 @@
 # codealpha_tasks
-
-
 TASK 1 : IMAGE GALLERY
 
 
