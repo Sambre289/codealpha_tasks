@@ -1,0 +1,98 @@
+/* Basic styles for music player */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #e3edf7;
+}
+.content {
+    width: 350px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.1),
+                -6px -6px 10px rgba(255,255,255,0.5);
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.material-symbols-rounded {
+    font-size: 24px;
+    cursor: pointer;
+}
+.music-image {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.music-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.music-titles {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.music-titles .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.music-titles .artist {
+    font-size: 16px;
+    opacity: 0.7;
+}
+.progress-details {
+    margin-bottom: 10px;
+}
+.progress-bar {
+    height: 6px;
+    background: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.progress-bar span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #0987f6;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+.control-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.control-btn span,
+.play-pause {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #f0f0f0;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.1),
+                -6px -6px 10px rgba(255,255,255,0.5);
+}
