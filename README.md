@@ -4,7 +4,7 @@
 
 A beautiful, responsive image gallery built with HTML, CSS, and JavaScript. Features include hover effects, smooth transitions, lightbox navigation (Next/Prev), and image category filtering. Perfect for showcasing photos in an interactive and elegant way.
 
-# Features:
+### Features:
 
 - Lightbox view with next/previous navigation
 
@@ -23,16 +23,16 @@ A beautiful, responsive image gallery built with HTML, CSS, and JavaScript. Feat
 
 An elegant and fully functional music player built using HTML, CSS, and JavaScript. Supports all essential audio controls, song info display, progress tracking, and more — inspired by real-world music apps.
 
- Features:
+ ### Features:
  
- Play, Pause, Next, Previous buttons
+ - Play, Pause, Next, Previous buttons
  
- Dynamic song info: Title, Artist, Duration
+ - Dynamic song info: Title, Artist, Duration
  
- Progress Bar & Time Indicator
+ - Progress Bar & Time Indicator
  
- Volume Control
+ - Volume Control
  
- Responsive and clean UI using HTML & CSS
+ - Responsive and clean UI using HTML & CSS
 
  <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/5014e11b-962e-4d76-b573-305b3e838297" />
